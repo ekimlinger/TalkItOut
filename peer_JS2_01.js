@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /step1
+=======
+//step1
+>>>>>>> 1a829032ba9ae185c981a21bfe0941b37a46c7b4
 
 var value = 85;
 
@@ -63,7 +67,6 @@ function convert (val) {
 	val = val.toString();
 	if (val.length> 1) {
 		val = val.substring(1,val.length); 
-
 	}
 	return val;
 }
